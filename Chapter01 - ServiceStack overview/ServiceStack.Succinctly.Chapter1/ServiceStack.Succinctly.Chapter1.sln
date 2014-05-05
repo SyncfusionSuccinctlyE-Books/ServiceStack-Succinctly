@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceStack.Succinctly.Chapter1", "ServiceStack.Succinctly.Chapter1.csproj", "{54058BF8-4C54-4C03-9158-A7D825C6B4BC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{54058BF8-4C54-4C03-9158-A7D825C6B4BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54058BF8-4C54-4C03-9158-A7D825C6B4BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54058BF8-4C54-4C03-9158-A7D825C6B4BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54058BF8-4C54-4C03-9158-A7D825C6B4BC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

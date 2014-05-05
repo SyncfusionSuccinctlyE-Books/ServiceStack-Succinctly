@@ -1,0 +1,56 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+</head>
+<body>
+    <p>
+        This page contains an example of how to query the Product service
+        from the jQuery by using $.ajax() function.
+    </p>
+    <script type="text/javascript">
+        function make_base_auth(user, password) {
+            var tok = user + ':' + password;
+            var hash = btoa(tok);
+            return "Basic " + hash;
+        }
+
+        function authenticate() {
+            //getting the username and password
+            var username = $("input#username").val();
+            var password = $("input#password").val();
+
+            $.ajax({
+                type: "GET",
+                url: "/products/1",
+                async: false,
+                dataType: 'json',
+                beforeSend: function (xhr) {
+                    xhr.setRequestHeader('Authorization', make_base_auth(username, password));
+                },
+                success: function (result) {
+                    //displaying the values
+                    $('#product_id').val(result.Id);
+                    $('#product_name').val(result.Name);
+                },
+                error : function(result) {
+                    alert('error' + result.responseText);
+                }
+            });
+        }
+    </script>
+
+    UserName:
+    <input id="username" />
+    Password:
+    <input id="password" type="password" />
+    <input id="authenticate" type="button" onclick="authenticate()" />
+
+    <p>Result:</p>
+    <div>
+        Product ID: 
+        <input id="product_id" />
+        Product Name:<input id="product_name" />
+    </div>
+</body>
