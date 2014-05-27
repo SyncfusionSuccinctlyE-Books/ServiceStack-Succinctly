@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="ServiceStack.Succinctly.Host.Extensions.OrderExtensions" Collapsed="true">
+    <Position X="4" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Extensions\OrderExtensions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ServiceStack.Succinctly.Host.Global" Collapsed="true">
+    <Position X="4" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>Global.asax.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ServiceStack.Succinctly.Host.Repository.OrderRepository" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="5.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAcAAAAAAAAACBAAAAAAAAAAAAEACAAAAAACAAAAAIg=</HashCode>
+      <FileName>Repository\OrderRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ServiceStack.Succinctly.Host.Services.OrderService" Collapsed="true">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAAAAAACAEAAAAAAAAAABAAAAg=</HashCode>
+      <FileName>Services\OrderService.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ServiceStack.CRUD.Model.GetOrdersRequest" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="2.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ServiceStack.CRUD.Model.GetOrderRequest" Collapsed="true">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ServiceStack.CRUD.Model.CreateOrderRequest" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ServiceStack.CRUD.Model.UpdateOrderRequest" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="2.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ServiceStack.CRUD.Model.DeleteOrderRequest" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ServiceStack.CRUD.Model.GetOrderResponse" Collapsed="true">
+    <Position X="0.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ServiceStack.CRUD.Model.GetOrderItem" Collapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Interface Name="ServiceStack.Succinctly.Host.Repository.IOrderRepository" Collapsed="true">
+    <Position X="0.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAIg=</HashCode>
+      <FileName>Repository\OrderRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
