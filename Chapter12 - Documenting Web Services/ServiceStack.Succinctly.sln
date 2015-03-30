@@ -1,6 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceStack.Succinctly.ServiceInterface", "ServiceStack.Succinctly.ServiceInterface\ServiceStack.Succinctly.ServiceInterface.csproj", "{59776AAB-0F91-48A8-B361-D6CF18A238AE}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderManagement.Core", "OrderManagement.Core\OrderManagement.Core.csproj", "{706EE8EF-372A-417C-B31F-55F83D6C1540}"
@@ -8,6 +10,13 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderManagement.DataAccessLayer", "OrderManagement.DataAccessLayer\OrderManagement.DataAccessLayer.csproj", "{A42B3AF0-02DA-4910-B037-69165A98F012}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceStack.Succinctly.Host", "ServiceStack.Succinctly.Host\ServiceStack.Succinctly.Host.csproj", "{10806CD0-357A-4ADC-83DF-27FE8BA20236}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{CD372DEA-D5CC-4EC2-A160-1AA9D8D4517E}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

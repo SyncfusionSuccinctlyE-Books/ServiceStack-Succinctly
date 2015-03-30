@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio 2013
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceStack.Succinctly.Chapter2", "ServiceStack.Succinctly.Chapter2.csproj", "{3F6402AB-DA7F-4005-A013-C4ECA7346544}"
 EndProject
 Global

@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio 2013
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceStack.Succinctly.ServiceInterface", "ServiceStack.Succinctly.ServiceInterface\ServiceStack.Succinctly.ServiceInterface.csproj", "{59776AAB-0F91-48A8-B361-D6CF18A238AE}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderManagement.Core", "OrderManagement.Core\OrderManagement.Core.csproj", "{706EE8EF-372A-417C-B31F-55F83D6C1540}"
