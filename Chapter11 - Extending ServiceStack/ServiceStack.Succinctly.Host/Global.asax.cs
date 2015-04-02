@@ -2,6 +2,7 @@
 using System.Web;
 using Funq;
 using ServiceStack.Succinctly.Host.Extensions;
+using ServiceStack.Succinctly.Host.Plugins;
 using ServiceStack.Succinctly.ServiceInterface.ProductModel;
 using ServiceStack.WebHost.Endpoints;
 
@@ -24,6 +25,7 @@ namespace ServiceStack.Succinctly.Host
 
             public override void Configure(Container container)
             {
+				Plugins.Add(new RegisteredPluginsFeature());
             }
 
             private void RoutesDefinition()

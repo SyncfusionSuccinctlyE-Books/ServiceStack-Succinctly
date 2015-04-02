@@ -8,7 +8,7 @@ namespace ServiceStack.Succinctly.Host.Services
 {
     public class ProductService : ServiceStack.ServiceInterface.Service
     {
-       [Authenticate]
+       //[Authenticate]
         public ProductResponse Get(GetProduct request)
         {
             using (Profiler.Current.Step("Returning the Product Response"))
